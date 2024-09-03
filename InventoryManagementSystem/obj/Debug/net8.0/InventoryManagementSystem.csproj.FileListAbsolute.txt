@@ -12,3 +12,4 @@ E:\.NetProject\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net
 E:\.NetProject\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\InventoryManagementSystem.pdb
 E:\.NetProject\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\InventoryManagementSystem.genruntimeconfig.cache
 E:\.NetProject\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\ref\InventoryManagementSystem.dll
+E:\.NetProject\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\InventoryManagementSystem.sourcelink.json
