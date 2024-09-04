@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("************* Inventory Management System *************");
+Interface Interface = new Interface();
 
-Database db = new Database();
+Interface.LoadInterface();
 
-//db.AddStock("Banana 13");
 
-db.CheckStock();
+
+

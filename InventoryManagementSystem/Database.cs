@@ -35,4 +35,54 @@ class Database
         }
     }
 
+    public Boolean CheckManagerCredentials(string email, string password)
+    {
+        string line;
+        try
+        {
+            StreamReader sr = new StreamReader("E:/.NetProject/InventoryManagementSystem/InventoryManagementSystem/Managers.txt");
+            line = sr.ReadLine();
+            while (line != null)
+            {
+                if (line == email + " " + password)
+                {
+                    return true;
+                }
+                line = sr.ReadLine();
+            }
+            sr.Close();
+            return false;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Exception: " + e.Message);
+            return false;
+        }
+    }
+
+    public Boolean CheckCustomerCredentials(string email, string password)
+    {
+        string line;
+        try
+        {
+            StreamReader sr = new StreamReader("E:/.NetProject/InventoryManagementSystem/InventoryManagementSystem/Customer.txt");
+            line = sr.ReadLine();
+            while (line != null)
+            {
+                if (line == email + " " + password)
+                {
+                    return true;
+                }
+                line = sr.ReadLine();
+            }
+            sr.Close();
+            return false;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Exception: " + e.Message);
+            return false;
+        }
+    }
+
 }
