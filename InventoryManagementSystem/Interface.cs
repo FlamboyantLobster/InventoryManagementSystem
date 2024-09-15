@@ -98,7 +98,7 @@ class Interface()
         }
         else if (response == "C" | response == "c")
         {
-            System.Environment.Exit(1);
+            LoadInterface();
         }
         else
         {
@@ -145,7 +145,7 @@ class Interface()
         }
         else if (response == "E" | response == "e")
         {
-            System.Environment.Exit(1);
+            LoadInterface();
         }
         else
         {

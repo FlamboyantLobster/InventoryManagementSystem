@@ -65,7 +65,7 @@ class Database
         string line;
         try
         {
-            StreamReader sr = new StreamReader("E:/.NetProject/InventoryManagementSystem/InventoryManagementSystem/Customer.txt");
+            StreamReader sr = new StreamReader("E:/.NetProject/InventoryManagementSystem/InventoryManagementSystem/Customers.txt");
             line = sr.ReadLine();
             while (line != null)
             {
